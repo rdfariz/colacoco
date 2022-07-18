@@ -38,8 +38,8 @@ export default {
   name: 'App',
   setup () {
     const highest = localStorage.getItem('highestScoreCola') || 0;
-    const _autoPlayBgm = localStorage.getItem('autoPlayBgmCola') || 'false';
-    const autoPlayBgm = JSON.parse(_autoPlayBgm) || false;
+    const _autoPlayBgm = localStorage.getItem('autoPlayBgmCola') || 'true';
+    const autoPlayBgm = JSON.parse(_autoPlayBgm) || true;
   
     const musicBgm = new Howl({
       src: [mp3Bgm],
