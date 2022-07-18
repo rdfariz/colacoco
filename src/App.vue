@@ -1,6 +1,6 @@
 <template>
   <div class="world" data-world>
-    <div class="start-screen" data-start-screen>PRESS ANY KEY<br />TO START</div>
+    <div class="start-screen" data-start-screen>TAP <br />TO START</div>
     <img src="./assets/ground.png" class="topground" data-topground>
     <img src="./assets/ground.png" class="topground" data-topground>
     <img src="./assets/ground.png" class="ground" data-ground>
